@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countries General Info</title>
+    <title>Country Details</title>
+    <link rel="shortcut icon" href="images/globe.svg" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,6 +16,7 @@
 
 
 <body>
+    <!-- All Countries -->
     <header class="container my-5">
         <h1 class="text-center display-5">Countries General Info</h1>
 
@@ -23,6 +25,21 @@
             </div>
         </main>
     </header>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="country-details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="country-name">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body" class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
 
 

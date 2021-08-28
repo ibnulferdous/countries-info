@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 
-.card-body ul {
+ul {
     padding-left: 0;
     list-style: none;
 }
