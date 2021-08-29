@@ -91,6 +91,7 @@ const countryDetails = async countryCode => {
         <li><span class="fw-bold">Currencies:</span> ${data.currencies[0].name} ${data.currencies[0].symbol}</li>
         <li><span class="fw-bold">Calling Code:</span> ${data.callingCodes[0]}</li>
         <li><span class="fw-bold">Time-zones:</span> ${data.timezones.join(", ")}</li>
+        <img src="${data.flag}" class="w-50 mx-auto d-block pt-4">
     `
 
     document.getElementById("modal-body").appendChild(ul)
